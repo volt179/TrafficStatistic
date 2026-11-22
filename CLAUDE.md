@@ -35,8 +35,9 @@
 - **Другие моды владельца тоже лежат локально** в той же папке `Mods\` (скопированы 2026-11-19 из
   `.cache\Mods\pdx_mods`, потому что Paradox-набор не грузился). Если набор Paradox снова включён, моды
   грузятся дважды — это не наша ошибка.
-- GitHub: `github.com/volt179/TrafficStatistic` (публичный), коммиты от `volt179`. GitHub CLI нет;
-  репозиторий создавался через GitHub Desktop.
+- GitHub: https://github.com/volt179/TrafficStatistic (публичный, ветка `main`), коммиты от `volt179`.
+  GitHub CLI стоит в `C:\Program Files\GitHub CLI\gh.exe` (в PATH Git Bash его нет — вызывать полным
+  путём), вход выполнен. Пушить, коммитить и создавать что-то на GitHub — только по просьбе владельца.
 
 ### Как изучать код игры
 Декомпилятора нет. Типы и поля смотрятся reflection-only загрузкой `Game.dll` в PowerShell
