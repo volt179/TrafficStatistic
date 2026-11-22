@@ -1,0 +1,4 @@
+bin/
+obj/
+# Path to the local game folder (see README)
+GameDir.props
